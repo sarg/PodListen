@@ -115,8 +115,7 @@
         <service
             android:name=".EpisodeSyncService"
             android:exported="true"
-            android:permission="${applicationId}.EpisodeSyncService"
-            android:process=":sync">
+            android:permission="${applicationId}.EpisodeSyncService">
             <intent-filter>
                 <action android:name="android.content.SyncAdapter"/>
             </intent-filter>
